@@ -1,130 +1,83 @@
-🛒 Retail Grocery Sales Dashboard (Power BI)
-📌 Project Objective
+# 🛒 Retail Grocery Sales Dashboard (Power BI)
 
-To analyze retail grocery sales performance by examining total sales, quantity sold, number of transactions, product categories, geographic distribution, and time-based trends.
-This project helps understand customer purchasing behavior, category performance, and sales drivers to support data-driven business decisions.
+## 📌 Project Objective
+To analyze retail grocery sales performance by examining total sales, quantity sold, transactions, product categories, geographic distribution, and time-based trends to support business decision-making.
 
-❓ Business Questions Answered
+---
 
-What is the total revenue, total quantity sold, and number of transactions?
+## ❓ Business Questions
+- What is the total sales revenue and quantity sold?
+- Which product categories generate the highest sales?
+- Which products contribute most to revenue?
+- How do sales trend month over month?
+- Which cities have the highest product sales?
+- What is the relationship between quantity sold and total sales?
+- What is the average order value?
 
-Which product categories contribute the most to total sales?
+---
 
-Which products are the top revenue generators?
+## 🔄 Process & Methodology
+- Imported grocery sales dataset into Power BI
+- Built a Date Table and applied star schema modeling
+- Cleaned and standardized data fields
+- Created DAX measures:
+  - Total Sales
+  - Total Quantity Sold
+  - Total Transactions
+  - Average Order Value
+  - Sales MoM %
+- Designed an interactive dashboard with slicers
 
-How do sales trend month over month?
+---
 
-Which cities record the highest product sales?
+## 📊 Dashboard Visualizations
+- KPI Cards (Sales, Quantity, Transactions, AOV, MoM %)
+- Bar Chart – Sales by Category
+- Column Chart – Sales by Product
+- Line Chart – Monthly Sales Trend
+- Donut Chart – Products Sold by Category
+- Map – Products Sold by City
+- Scatter Plot – Quantity vs Sales by Category
 
-What is the relationship between products sold and total sales?
+---
 
-What is the average order value (AOV) and sales MoM %?
+## 🖼️ Dashboard Preview
+![Retail Grocery Sales Dashboard](PowerBI_Retail.png)
 
-🔄 Process & Methodology
+---
 
-Imported grocery sales dataset into Power BI
+## 🔍 Key Insights
+- $4.33B total sales with 88M units sold across 7M transactions
+- Confections, Meat, and Poultry lead category sales
+- Sales peak from January to April
+- Strong correlation between quantity sold and total revenue
+- Average Order Value is $641.07
 
-Built a Date Table and implemented a star schema data model
+---
 
-Cleaned and standardized:
+## 🧠 Key Learnings
+- Measures are preferred over calculated columns for KPIs
+- Date tables are essential for time intelligence
+- Clean visual hierarchy improves executive readability
+- Geographic visuals reveal regional demand patterns
 
-Dates
+---
 
-Product names
+## 🛠️ Tools & Technologies
+- Power BI
+- DAX
+- Excel / CSV
+- Star Schema Data Modeling
 
-Category labels
+---
 
-City and location fields
+## ✅ Final Conclusion
+This dashboard provides a comprehensive view of grocery sales performance, enabling stakeholders to monitor trends, identify top categories, and make informed business decisions.
 
-Created DAX measures:
+---
 
-Total Sales
-
-Total Quantity Sold
-
-Total Transactions
-
-Average Order Value (AOV)
-
-Sales Month-over-Month %
-
-📊 Dashboard Visualizations
-
-The dashboard includes:
-
-KPI Cards
-
-Total Sales
-
-Sales MoM %
-
-Total Quantity Sold
-
-Total Transactions
-
-Average Order Value
-
-Bar Chart – Total Sales by Category
-
-Column Chart – Total Sales by Product
-
-Line Chart – Monthly Sales Trend
-
-Donut Chart – Products Sold by Category
-
-Map Visualization – Products Sold by City
-
-Scatter Plot – Products Sold vs Total Sales by Category
-
-Interactive filtering enabled using slicers for:
-
-Month
-
-Category
-
-Product
-
-City
-
-🖼️ Dashboard Preview
-
-![Grocery Sales Dashboard](PowerBI_Report.png)
-
-🔍 Key Insights
-
-Total sales reached $4.33B, with 88M units sold across 7M transactions
-
-Confections, Meat, and Poultry are the highest revenue-generating categories
-
-Sales peaked between January and April, followed by a decline in May
-
-Certain cities consistently show higher product demand
-
-Higher product quantities generally correlate with higher sales value
-
-Average Order Value remains strong at $641.07
-
-🧠 Key Learnings
-
-Importance of using measures instead of calculated columns for KPIs
-
-Proper date table modeling enables accurate time intelligence
-
-Visual hierarchy improves dashboard readability
-
-Combining geography with sales metrics provides deeper insights
-
-🛠️ Tools & Technologies
-
-Power BI
-
-DAX
-
-Excel / CSV Data
-
-Star Schema Data Modeling
-
-✅ Final Conclusion
-
-This dashboard delivers a comprehensive view of retail grocery sales by integrating sales, quantity, geography, and time-based analysis.
-It enables stakeholders to identify top-performing categories, monitor trends, and make informed decisions related to inventory planning, pricing, and regional strategy.
+## 💼 Interview-Ready Highlights
+- Built an end-to-end Power BI dashboard
+- Implemented star schema and time intelligence
+- Created business KPIs using DAX
+- Designed interactive and executive-friendly visuals
